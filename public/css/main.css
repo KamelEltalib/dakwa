@@ -1,0 +1,61 @@
+@font-face {
+      font-family: 'tajawal';
+      src: url(../fonts/tajawal.woff2) format('woff2');
+      unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+      font-family: 'tajawal'
+}
+
+
+code {
+      background-color: black;
+      color: white !important;
+      padding: 5px;
+      width: 100%;
+      display: block;
+}
+
+
+.main {
+      min-height: 100vh;
+}
+
+
+.load {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+.load div {
+      width: 20px;
+      height: 20px;
+      background-color: royalblue;
+      border-radius: 50%;
+      margin: 0 5px;
+      animation: loadind 0.9s infinite alternate;
+}
+
+.two {
+      animation-delay: 0.3s !important;
+}
+
+.three {
+      animation-delay: 0.6s !important;
+}
+
+@keyframes loadind {
+      100% {
+            opacity: 0.2;
+            transform: translateY(-20px);
+      }
+}

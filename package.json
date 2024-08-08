@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "server": "node server.js"
+  },
+  "name": "dakwa",
+  "version": "0.0.4",
+  "description": "web app",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [
+    "web"
+  ],
+  "author": "Kamel_Eltalib",
+  "license": "ISC"
+}
